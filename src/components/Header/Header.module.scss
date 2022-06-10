@@ -1,0 +1,116 @@
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #373737;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.headerContent {
+  display: flex;
+  flex-basis: 100%;
+  max-width: 1440px;
+  justify-content: center;
+  height: 71px;
+  align-self: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: 100%;
+  align-self: center;
+  a {
+    font-size: 1.6rem;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 0 0 0 24px;
+    &:focus {
+      color: red;
+    }
+
+    &:hover {
+      color: red;
+    }
+
+    &:active {
+      color: white;
+    }
+  }
+}
+
+.btnMenu {
+  background-color: rgba(33, 33, 33, 0.8);
+  background-image: url(../../img/Menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  margin: 0 0 0 120px;
+  width: 24px;
+  height: 24px;
+}
+
+.map {
+  background-image: url(../../img/Map.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  margin: 0 0 0 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  align-self: center;
+}
+
+.logoImg {
+  display: block;
+  background-image: url(../../img/Logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 146px;
+  height: 35px;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  flex-basis: 100%;
+}
+
+.basketImg {
+  display: block;
+  background-image: url(../../img/Basket.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 24px 0 0;
+  width: 24px;
+  height: 24px;
+}
+.mailImg {
+  display: block;
+  background-image: url(../../img/mail.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 24px 0 0;
+  width: 24px;
+  height: 24px;
+}
+.searchImg {
+  display: block;
+  background-image: url(../../img/search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 120px 0 0;
+  width: 24px;
+  height: 24px;
+}
