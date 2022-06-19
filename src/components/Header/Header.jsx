@@ -3,7 +3,7 @@ import styles from './Header.module.scss';
 function Header ()
 {
     return(
-        <div className={styles.header}>
+        <div className={styles.headerContainer}>
             <div className={styles.headerContent}>
             <div className={styles.menu}>
                 <div className={styles.btnMenu}></div>
@@ -12,6 +12,7 @@ function Header ()
             </div>
 
             <div className={styles.logo}>
+                <div></div>
                 <div className={styles.logoImg}></div>
             </div>
 

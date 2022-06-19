@@ -1,9 +1,8 @@
-.header {
+.headerContainer {
   display: flex;
   position: fixed;
   width: 100%;
-  background-color: #373737;
-  flex-basis: 100%;
+  background-color: rgba(33, 33, 33, 0.8);
   justify-content: center;
 }
 
@@ -13,7 +12,7 @@
   max-width: 1440px;
   justify-content: center;
   height: 71px;
-  align-self: center;
+  align-content: center;
 }
 
 .menu {
@@ -22,10 +21,9 @@
   flex-basis: 100%;
   align-self: center;
   a {
-    font-size: 1.6rem;
+    font-size: 20px;
     display: flex;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: "Montserrat";
     color: white;
     text-decoration: none;
     margin: 0 0 0 24px;

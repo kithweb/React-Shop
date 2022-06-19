@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  width: 1440px;
+  height: 590px;
+  background-image: url("../../img/FearstDisplayIMG.png");
+  flex-direction: column;
+}
+.mainText {
+  width: 602px;
+  height: 96px;
+  color: #fff;
+  margin-top: 148px;
+  margin-left: 188px;
+  margin-bottom: 10px;
+  font-family: "Jura";
+  font-weight: 500;
+  font-size: 41px;
+}
+.afterText {
+  width: 447px;
+  height: 46px;
+  color: #fff;
+  margin-left: 188px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 19px;
+}
+.rederect {
+  outline: none;
+  text-decoration: none;
+  display: flex;
+  margin-left: 188px;
+  margin-top: 20px;
+  width: 165px;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #C80000;
+  border-radius: 27px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+
+  
+
+  &:link,&:visited,&:focus {
+    background-color: rgba(33, 33, 33, 0.8);
+    
+
+  }
+
+  &:hover {
+    border-color: #fff;
+  }
+
+  &:active {
+    color: #C80000;
+    border-color: #fff;
+  }
+}

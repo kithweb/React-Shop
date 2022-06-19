@@ -1,20 +1,16 @@
 import './App.scss';
 import Header from './components/Header/Header'
-import ProductDescription from './components/ProductDescription';
-import objectf from './stor/objectF';
+import FerstDisplay from './components/FerstDispaly/FerstDispaly'
 
 function App() {
-    return ( <
-        >
+    return ( 
+    <>
 
-        <
-        Header / >
-        <
-        ProductDescription Propoty = { objectf }
-        />
+        <Header/ >
+        <FerstDisplay/ >
 
 
-        </>    
+    </>    
 
     );
 }

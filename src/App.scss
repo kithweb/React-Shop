@@ -1,37 +1,20 @@
 @import-normalize;
 
+@font-face {
+  font-family: "Montserrat";
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Jura";
+  src: url(./fonts/Jura-VariableFont_wght.ttf)
+  ;
+}
+
 #root {
   width: 100%;
   display: flex;
   background-color: #373737;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.productDescription {
-  display: flex;
-  margin: 71px 0 0 0;
-  background-color: black;
-  height: 1500px;
-}
-
-.productPhoto {
-  display: block;
-  background-color: darkgreen;
-  width: 25vw;
-  height: 100%;
-}
-
-.description {
-  display: block;
-  background-color: indianred;
-  width: 50vw;
-  height: 100%;
-}
-
-.sell {
-  display: block;
-  background-color: darkkhaki;
-  width: 25vw;
-  height: 100%;
 }
